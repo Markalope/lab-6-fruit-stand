@@ -7,6 +7,13 @@ h1 {
 
 li {
     display: inline-block;
-    border-left-color: orange;
+    width: 150px;
+    border: 0px solid black;
+    border-top-color: black;
+    border-top-width: 2px;
+    border-bottom-color: orange;
+    border-bottom-width: 20px;
     color: red;
+    margin: 10px;
+
 }
