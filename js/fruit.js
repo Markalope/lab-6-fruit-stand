@@ -9,7 +9,13 @@ var allFruits = [
         price: '$1.99/lb',
         desc: 'Keeps doctor away.',
         color: 'red',
-        image: 'apple.png'
+        image: 'apple.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
     
     {
@@ -17,7 +23,13 @@ var allFruits = [
         price: '$.99/lb',
         description: 'Sweet and Seedy.',
         color: 'red',
-        image: 'strawberry.png'
+        image: 'strawberry.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
 
     {
