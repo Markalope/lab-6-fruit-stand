@@ -1,3 +1,13 @@
 h1 {
-    color: red;
+    font-size: 72px;
+    font-family: 'Fontdiner Swanky', cursive;
+    text-align: center;
+    color: green;
+}
+
+ul {
+    list-style: inline-block;
+    border-left-width: 12px;
+    border-left-color: orange;
+    color: black;
 }
