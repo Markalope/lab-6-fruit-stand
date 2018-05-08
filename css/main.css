@@ -6,7 +6,7 @@ h1 {
 }
 
 li {
-    list-style: inline-block;
+    display: inline-block;
     border-left-color: orange;
     color: red;
 }

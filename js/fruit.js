@@ -2,7 +2,8 @@ console.log('fruit.js is loading');
 /* exported apple strawberry pomegranate dragonfruit orange peach banana lemon yellowApple */
 
 var allFruits = [
-
+    
+    //red fruits
     {
         name: 'Red Apple',
         price: '$1.99/lb',
@@ -34,7 +35,7 @@ var allFruits = [
         image: 'dragonfruit.png'
     },
 
-//orange fruits
+    //orange fruits
     {
         name: 'Orange',
         price: '$2.00/lb',
@@ -43,14 +44,14 @@ var allFruits = [
         image: 'orange.png',
     },
     {
-        name: 'Orange',
+        name: 'Peach',
         price: '$2.79/lb',
         description: 'Dude. Seriously. Peaches are not orange.',
         color: 'orange',
         image: 'peach.png',
     },
 
-//yellow fruits
+    //yellow fruits
     {
         name: 'Banana',
         price: '$1.79/lb',
@@ -76,6 +77,7 @@ var allFruits = [
     }
 
 ];
+
 
 console.log(allFruits[1].name);
 console.log(allFruits[1]);
