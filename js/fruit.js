@@ -1,0 +1,1 @@
+console.log('fruit.js is loading');
