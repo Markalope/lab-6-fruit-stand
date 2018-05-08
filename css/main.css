@@ -7,7 +7,6 @@ h1 {
 
 li {
     list-style: inline-block;
-    border: 12px solid;
     border-left-color: orange;
     color: red;
 }
