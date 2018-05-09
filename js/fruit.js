@@ -37,14 +37,27 @@ var allFruits = [
         price: '$2.29',
         description: 'Sweet. Seed-filled. Biggish.',
         color: 'red',
-        image: 'pomegranate.png'
+        image: 'pomegranate.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
     {
         name: 'Dragonfruit',
         price: '$3.99',
         description: 'OK it\s more pink than red. Sue me.',
         color: 'red',
-        image: 'dragonfruit.png'
+        image: 'dragonfruit.jpg',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
 
     //orange fruits
@@ -54,6 +67,12 @@ var allFruits = [
         description: 'They\re not just for breakfast anymore.',
         color: 'orange',
         image: 'orange.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
     {
         name: 'Peach',
@@ -61,6 +80,12 @@ var allFruits = [
         description: 'Dude. Seriously. Peaches are not orange.',
         color: 'orange',
         image: 'peach.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
 
     //yellow fruits
@@ -70,6 +95,12 @@ var allFruits = [
         description: 'Can you tell I have no idea what fruit costs?',
         color: 'yellow',
         image: 'banana.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
 
     {
@@ -77,7 +108,13 @@ var allFruits = [
         price: '$.79/lb',
         description: 'Used for Lemonade and Iced Tea. Hey, let\s mix these up!',
         color: 'yellow',
-        image: 'lemon.png'
+        image: 'lemon.jpg',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     },
 
     {
@@ -85,7 +122,13 @@ var allFruits = [
         price: '$2.79/lb',
         description: 'These are for baking mostly, right?',
         color: 'yellow',
-        image: 'yellowapple.png'
+        image: 'yellowapple.png',
+        createLi: function() {
+            const li = document.createElement('li');
+            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            li.appendChild(newText);
+            return li;
+        }
     }
 
 ];
