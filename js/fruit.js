@@ -7,7 +7,7 @@ var allFruits = [
     {
         name: 'Red Apple',
         price: '$1.99/lb',
-        desc: 'Keeps doctor away.',
+        description: 'Keeps doctor away.',
         color: 'red',
         image: 'apple.png',
         createLi: function() {
