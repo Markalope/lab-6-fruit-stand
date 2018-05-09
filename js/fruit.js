@@ -12,6 +12,7 @@ var allFruits = [
         image: 'apple.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -26,6 +27,7 @@ var allFruits = [
         image: 'strawberry.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -54,6 +56,7 @@ var allFruits = [
         image: 'dragonfruit.jpg',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -69,6 +72,7 @@ var allFruits = [
         image: 'orange.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -82,6 +86,7 @@ var allFruits = [
         image: 'peach.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -97,6 +102,7 @@ var allFruits = [
         image: 'banana.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -111,6 +117,7 @@ var allFruits = [
         image: 'lemon.jpg',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
@@ -125,6 +132,7 @@ var allFruits = [
         image: 'yellowapple.png',
         createLi: function() {
             const li = document.createElement('li');
+            li.style.borderBottomColor = this.color;
             var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
             li.appendChild(newText);
             return li;
