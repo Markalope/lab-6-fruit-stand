@@ -7,14 +7,20 @@ h1 {
 
 li {
     display: inline-block;
-    font-size: 16px;
-    width: 150px;
+    font-size: 18px;
+    width: 250px;
     border: 0px solid black;
     border-top-color: black;
     border-top-width: 2px;
+    border-radius: 6px;
     border-bottom-color: orange;
-    border-bottom-width: 20px;
-    color: red;
+    border-bottom-width: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
     margin: 10px;
+}
 
+img {
+    padding: 10px;
 }

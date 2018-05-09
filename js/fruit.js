@@ -13,7 +13,7 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
@@ -28,7 +28,7 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
@@ -43,11 +43,12 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
     },
+
     {
         name: 'Dragonfruit',
         price: '$3.99',
@@ -57,7 +58,7 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
@@ -73,11 +74,12 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
     },
+    
     {
         name: 'Peach',
         price: '$2.79/lb',
@@ -87,7 +89,7 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
@@ -103,7 +105,7 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
@@ -118,9 +120,10 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
+            
         }
     },
 
@@ -133,14 +136,13 @@ var allFruits = [
         createLi: function() {
             const li = document.createElement('li');
             li.style.borderBottomColor = this.color;
-            var newText = document.createTextNode (this.name + ' on sale for  ' + this.price);
+            var newText = document.createTextNode (this.name + ': ' + this.description + ' On sale for  ' + this.price);
             li.appendChild(newText);
             return li;
         }
     }
 
 ];
-
 
 console.log(allFruits[1].name);
 console.log(allFruits[1]);
